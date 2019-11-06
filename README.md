@@ -17,4 +17,4 @@ O(n * m)
 
 NOTE: The max_size check happens as soon as the ouput json is written. If the file size exceeds the given size, the json file is deleted as soon as it is written.
 
-NOTE : For windows operating system change DIR += "/" to DIR += "\\"
+NOTE : For windows operating system change DIR += "/" to DIR += "\\" (line no 5)
