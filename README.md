@@ -1,8 +1,9 @@
 # JSON-merge 
 ## It is a python script that merges multiple json files and writes as output files.
-First the number of json files are read in the directory.
 
-Then the key for the json file is noted by converting the json to a string and getting the common key for the json files.
+*Total number of json files are read in the directory.
+
+*Then the key for the json file is noted by converting the json to a string and getting the common key for the json files.
 
 Then we iterate through each json file in the directory and then for each time we store the read JSON in a dictionary and simply dump the variable containing the dictionary into a new output json file.
 
